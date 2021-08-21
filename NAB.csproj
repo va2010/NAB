@@ -128,6 +128,9 @@
       <DependentUpon>DepositsModel.edmx</DependentUpon>
       <LastGenOutput>DepositsModel.cs</LastGenOutput>
     </Content>
+    <Content Include="DbObjects\TableCreation.sql" />
+    <Content Include="DbObjects\TableRecords.sql" />
+    <Content Include="DbObjects\vwDeposits.sql" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -146,6 +149,8 @@
     <Content Include="DataSets\DepositsModel.edmx.diagram">
       <DependentUpon>DepositsModel.edmx</DependentUpon>
     </Content>
+    <Content Include="DbObjects\NAB.bak" />
+    <Content Include="Documentation\Documentation.docx" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="NABMainForm.aspx" />
     <Content Include="Scripts\bootstrap.js" />
