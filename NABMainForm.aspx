@@ -15,8 +15,7 @@
             <tr></tr>
         </table>
         <div>
-            <asp:Label ID="Label1" runat="server" Text="Total Maturity Amount"></asp:Label>
-            <asp:TextBox ID="txtTotalMaturityAmount" runat="server" Enabled="False" ReadOnly="True"></asp:TextBox>
+
             <asp:Label ID="Label2" runat="server" Text="Deposit Option"></asp:Label>
             <asp:DropDownList ID="DepositOption" runat="server" AutoPostBack="True" OnSelectedIndexChanged="DepositOption_SelectedIndexChanged">
                 <asp:ListItem Value="0">Hold</asp:ListItem>
@@ -36,6 +35,8 @@
         <asp:BoundField ItemStyle-Width="150px" DataField="MaturityAmount" HeaderText="Maturity Amount" DataFormatString="{0:C2}" />
     </Columns>
 </asp:GridView>
+            <asp:Label ID="Label1" runat="server" Text="Total Maturity Amount"></asp:Label>
+            <asp:TextBox ID="txtTotalMaturityAmount" runat="server" Enabled="False" ReadOnly="True"></asp:TextBox>
 
     </form>
 </body>
