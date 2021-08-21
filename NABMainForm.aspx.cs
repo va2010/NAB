@@ -1,4 +1,11 @@
-﻿
+﻿/*
+ *  Author      :   Vivek Arkalgud
+ *  Date        :   21-Aug-2021
+ *  Description :   If the user selects Buy, the system should add 1 Deposit instantly and then after every 5 seconds till the total Maturity Amounts become >=120 Million.
+ *                  If the user selects Sell, the system should remove 1 Deposit instantly and then after every 5 seconds till the total Maturity Amounts become <=50 Million.
+ *                  If the user selects Hold, the system should retain its current state. 
+ *                  For addition and removal of Deposits, the principal should be between 3 Million and 5 Million (upper range and lower range included). The deposit lists and sum of maturity amounts in the UI should be refreshed.
+*/
 
 using System;
 using System.Collections.Generic;
