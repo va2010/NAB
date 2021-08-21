@@ -50,7 +50,7 @@ namespace NAB
                         if (totalMaturityAmount < TOTAL_MATURITY_AMOUNT_MAX)
                             Thread.Sleep(Convert.ToInt32(ConfigurationManager.AppSettings["SleepTime"]));
                     };
-
+                    GetDeposits();
                 }
                 else if (Convert.ToInt32(DepositOption.SelectedValue) == Convert.ToInt32(depositOptionEnum.Sell))
                 {
@@ -70,7 +70,7 @@ namespace NAB
                             if (totalMaturityAmount > TOTAL_MATURITY_AMOUNT_MIN)
                                 Thread.Sleep(Convert.ToInt32(ConfigurationManager.AppSettings["SleepTime"]));
                         };
-
+                        GetDeposits();
                     }
                 }
             }
